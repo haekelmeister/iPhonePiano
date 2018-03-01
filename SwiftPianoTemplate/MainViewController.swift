@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MainViewController.swift
 //  SwiftPianoTemplate
 //
 //  Created by Chris on 01.03.18.
@@ -8,7 +8,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainViewController: UIViewController {
+    override public func loadView() {
+        super.view = MainView()
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
