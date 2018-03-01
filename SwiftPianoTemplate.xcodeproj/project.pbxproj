@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		83C51FBF2048440200B69E42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C51FBE2048440200B69E42 /* AppDelegate.swift */; };
 		83C51FC12048440200B69E42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C51FC02048440200B69E42 /* ViewController.swift */; };
-		83C51FC42048440200B69E42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C51FC22048440200B69E42 /* Main.storyboard */; };
-		83C51FC62048440200B69E42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83C51FC52048440200B69E42 /* Assets.xcassets */; };
 		83C51FC92048440200B69E42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C51FC72048440200B69E42 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -18,8 +16,6 @@
 		83C51FBB2048440200B69E42 /* SwiftPianoTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPianoTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83C51FBE2048440200B69E42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83C51FC02048440200B69E42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		83C51FC32048440200B69E42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		83C51FC52048440200B69E42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83C51FC82048440200B69E42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83C51FCA2048440200B69E42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -56,8 +52,6 @@
 			children = (
 				83C51FBE2048440200B69E42 /* AppDelegate.swift */,
 				83C51FC02048440200B69E42 /* ViewController.swift */,
-				83C51FC22048440200B69E42 /* Main.storyboard */,
-				83C51FC52048440200B69E42 /* Assets.xcassets */,
 				83C51FC72048440200B69E42 /* LaunchScreen.storyboard */,
 				83C51FCA2048440200B69E42 /* Info.plist */,
 			);
@@ -124,8 +118,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				83C51FC92048440200B69E42 /* LaunchScreen.storyboard in Resources */,
-				83C51FC62048440200B69E42 /* Assets.xcassets in Resources */,
-				83C51FC42048440200B69E42 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,14 +136,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		83C51FC22048440200B69E42 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				83C51FC32048440200B69E42 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		83C51FC72048440200B69E42 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -273,7 +257,6 @@
 		83C51FCE2048440200B69E42 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8AA348BVEZ;
 				INFOPLIST_FILE = SwiftPianoTemplate/Info.plist;
@@ -288,7 +271,6 @@
 		83C51FCF2048440200B69E42 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8AA348BVEZ;
 				INFOPLIST_FILE = SwiftPianoTemplate/Info.plist;
