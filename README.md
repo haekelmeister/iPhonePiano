@@ -19,3 +19,7 @@ Build a small piano like application in Swift with white and black keys, playing
 ## SwiftPianoTemplate
 
 This project contains a sample starter code for a project programmatically creating UIViews instead of Storyboards. Feel free to use this starter code for your task.
+
+## Piano Sounds
+
+The directory `grand-piano-mp3-sounds` contains sample sounds you can use for this task. Alternatively you can use sounds from `https://github.com/pffy/mp3-piano-sound` or other sample sounds of your preference.
