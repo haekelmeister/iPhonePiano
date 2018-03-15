@@ -96,6 +96,7 @@
 		528CA043205A99D900A5B2FE /* A7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 528C9FEA205A99D900A5B2FE /* A7.mp3 */; };
 		528CA044205A99D900A5B2FE /* Db1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 528C9FEB205A99D900A5B2FE /* Db1.mp3 */; };
 		528CA045205A99D900A5B2FE /* Bb7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 528C9FEC205A99D900A5B2FE /* Bb7.mp3 */; };
+		52EAFCF82059A54E004B65EF /* PianoKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EAFCF72059A54E004B65EF /* PianoKey.swift */; };
 		83C51FBF2048440200B69E42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C51FBE2048440200B69E42 /* AppDelegate.swift */; };
 		83C51FC12048440200B69E42 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C51FC02048440200B69E42 /* MainViewController.swift */; };
 		83C51FC92048440200B69E42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C51FC72048440200B69E42 /* LaunchScreen.storyboard */; };
@@ -192,6 +193,7 @@
 		528C9FEA205A99D900A5B2FE /* A7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = A7.mp3; sourceTree = "<group>"; };
 		528C9FEB205A99D900A5B2FE /* Db1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Db1.mp3; sourceTree = "<group>"; };
 		528C9FEC205A99D900A5B2FE /* Bb7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Bb7.mp3; sourceTree = "<group>"; };
+		52EAFCF72059A54E004B65EF /* PianoKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoKey.swift; sourceTree = "<group>"; };
 		83C51FBB2048440200B69E42 /* SwiftPianoTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPianoTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83C51FBE2048440200B69E42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83C51FC02048440200B69E42 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -332,6 +334,7 @@
 				83C51FC02048440200B69E42 /* MainViewController.swift */,
 				83C51FC72048440200B69E42 /* LaunchScreen.storyboard */,
 				83C51FCA2048440200B69E42 /* Info.plist */,
+				52EAFCF72059A54E004B65EF /* PianoKey.swift */,
 			);
 			path = SwiftPianoTemplate;
 			sourceTree = "<group>";
@@ -496,6 +499,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83C51FC12048440200B69E42 /* MainViewController.swift in Sources */,
+				52EAFCF82059A54E004B65EF /* PianoKey.swift in Sources */,
 				83C51FD120484A4D00B69E42 /* MainView.swift in Sources */,
 				83C51FBF2048440200B69E42 /* AppDelegate.swift in Sources */,
 			);
