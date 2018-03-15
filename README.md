@@ -1,5 +1,9 @@
 # Swift Piano Task
 
+This project solves the problem given at this [Github account](https://github.com/fk-interview/swift-piano-task). For completness I left the original text and task description.
+
+## Original Task Description
+
 Build a small piano like application in Swift with white and black keys, playing a sound on pressing the keys.
 
 **IMPORTANT:** Don't use Storyboards but purely code to create the views. A starting point for such as structure is given in the [SwiftPianoTemplate](#swiftpianotemplate) XCode project.
